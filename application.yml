@@ -11,10 +11,10 @@ eureka:
 
 spring:
     rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
+        host: localhost
+        port: 5672
+        username: guest
+        password: guest
 
     # mariadb settings
     datasource:
@@ -26,8 +26,8 @@ spring:
     jpa:
         database: mariadb 
         # create, create-drop, update, none
-        database-platform: org.hibernate.dialect.H2Dialect    
-        hybernate:
+        database-platform: org.hibernate.dialect.MariaDBDialect    
+        hibernate:
             ddl-auto: create
         # 콘솔출력
         show-sql: true     
