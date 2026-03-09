@@ -1,0 +1,6 @@
+jwt:
+  secret: daniel-secret-key-for-jwt-123456789
+
+
+
+  
